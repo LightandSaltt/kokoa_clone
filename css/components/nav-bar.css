@@ -15,6 +15,7 @@
 
 .nav__link {
     color: #2e363e;
+    position: relative;
 }
 
 .status-bar {
@@ -22,4 +23,34 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    position: absolute; /* postiotion : relative 의 부모 기준으로 움직임 */
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__ellipsis-h {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    position: absolute; /* postiotion : relative 의 부모 기준으로 움직임 */
+    left: 28px;
+    bottom: 28px;
 }
