@@ -1,0 +1,19 @@
+.icon-row {  /* 드래그 후 command + D 같은 단어 다중 선택 */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon i {  /* icon들에게만 적용시키는 것 */
+    font-size: 35px;
+}
+
+.icon-row__icon span {
+    margin-top: 18px;
+}
