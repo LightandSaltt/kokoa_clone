@@ -1,0 +1,13 @@
+.chat-screen {
+    background-image: url(http://file3.instiz.net/data/file3/2018/09/29/a/4/1/a416cb1058cbf018577f90e046bd9497.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.fa-bars {
+    margin-left: 20px;
+    padding-right: 8px;
+
+}
