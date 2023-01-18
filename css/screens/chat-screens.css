@@ -1,13 +1,34 @@
 .chat-screen {
-    background-image: url(http://file3.instiz.net/data/file3/2018/09/29/a/4/1/a416cb1058cbf018577f90e046bd9497.jpg);
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
+    background-color: white;
+    height: 1000vh;
+    width: auto;
     background-size: cover;
+
+}
+
+.chat-screen .alt-header,
+.chat-screen .status-bar {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.chat-screen .status-bar {
+    z-index: 2;
+}
+
+.chat-screen .alt-header {
+    z-index: 1;
 }
 
 .fa-bars {
     margin-left: 20px;
     padding-right: 8px;
 
+}
+
+.main-chat {
+    margin-top: 150px;
 }

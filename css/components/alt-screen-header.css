@@ -6,6 +6,10 @@
     margin-bottom: 15px;
 }
 
+.alt-header__column {
+    width: 33%; /* 중앙 정렬, 모든 열 동일한 간격*/
+}
+
 .alt-header__title {
     font-size: 28px;
     font-weight: 600;
@@ -15,6 +19,12 @@
     margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+    text-align: center; /* 중앙 정렬  */
+}
+
 .alt-header__column:last-child {
     margin-left: auto;
-}
+    display: flex; /* 중앙 정렬 */
+    justify-content: flex-end; /* 중앙 정렬 */
+} 
