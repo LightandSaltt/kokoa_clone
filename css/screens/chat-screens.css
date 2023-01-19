@@ -133,6 +133,7 @@
     padding: 5px 25px;
     box-sizing: border-box;
     align-items: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .reply i {
@@ -153,6 +154,7 @@
     width: 96%;
     border: var(--main-border);
     border-radius: 20px;
+    transition: all 0.3s ease-in-out; /* 변화를 부드럽게 관찰하기 위한 */
 }
 
 .reply__column:last-child > i,
@@ -184,4 +186,24 @@
 
 }
 
+.reply .reply__column:first-child,
+.reply .fa-smile,
+.reply button {
+    transition: 0.3s ease-in-out;
+}
 
+.reply:focus-within /* 여기서는 reply 내부에 어떤 element가 focus되면 */ .reply__column:first-child,
+.reply:focus-within .fa-smile,
+.reply:focus-within button {
+    opacity: 0;
+}
+
+.reply:focus-within input {
+    width: 95vw;
+    transform: translateX(-11.5%) translateY(-80px);
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.reply:focus-within {
+    transform: translateY(80px);
+}
