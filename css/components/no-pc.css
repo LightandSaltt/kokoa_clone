@@ -1,0 +1,19 @@
+#no-pc {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: crimson;
+    width: 100vw;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+}
+
+@media screen and (max-width:650px) {
+    #no-pc {
+        display: none;  /* min-width일 때 flex로도 적용 가능 */
+    }
+}
