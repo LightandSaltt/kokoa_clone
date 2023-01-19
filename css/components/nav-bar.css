@@ -42,7 +42,7 @@
     position: absolute; /* postiotion : relative 의 부모 기준으로 움직임 */
     left: 15px;
     bottom: 15px;
-    animation: notificationAnimation 4.5s ease-in-out infinite;
+    animation: notificationAnimation 3s ease-in-out infinite;
 }
 
 .nav__ellipsis-h {
