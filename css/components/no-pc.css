@@ -14,6 +14,8 @@
 
 @media screen and (max-width:650px) {
     #no-pc {
-        display: none;  /* min-width일 때 flex로도 적용 가능 */
+        display: none;  /* min-width일 때, 즉 이 값보다 클 때의 경우 flex로도 적용 가능 */
     }
 }
+
+/* 가로 모드 불가도 추가해 보기 */
