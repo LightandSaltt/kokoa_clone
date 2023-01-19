@@ -15,4 +15,8 @@ JS를 사용하지 않고 html 웹앱으로 구현하였기에 anchor를 통한 
 
 CSS 파일 내에 자주 사용되는 컴포넌틑와 화면 양식을 나눠 정리해 구현하였습니다.
 
+< 구현 사이트 >
+https://lightandsaltt.github.io/kokoa_clone/
+
+부족하지만 예쁘게 봐주세요!
 
