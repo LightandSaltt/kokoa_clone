@@ -1,6 +1,6 @@
 .chat-screen {
     background-color: white;
-    height: 1000vh;
+    height: 500vh;
     width: auto;
     background-size: cover;
 
@@ -28,12 +28,23 @@
     padding-right: 8px;
 
 }
+@keyframes fadeIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
 
 .main-chat {
-    margin-top: 140px;
+    margin-top: 190px;
     display: flex;
     flex-direction: column; /* flex-direction이 column일 때 cross axis(교차축)은  수평이 된다.*/
     align-items: center;
+    animation: fadeIn 0.5s linear;
 }
 
 .chat__timestamp {
